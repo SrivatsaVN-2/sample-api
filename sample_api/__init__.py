@@ -4,7 +4,7 @@ import os
 # Add the submodule directory to Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "sample-api"))
 
-from sample_api import hello_world
+from sample_api.hello import hello_world
 
 
 def call_api():
