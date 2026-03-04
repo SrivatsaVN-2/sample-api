@@ -10,5 +10,5 @@ def print_info(interface):
     print("STB Configuration")
     print("------------------")
     print("Natco:", config.get("natco"))
-    print("Language:", config.get("language"))
-    print("Release Type:", config.get("release_type"))
+    print("Language:", config.get("model"))
+    print("Release Type:", config.get("location"))
